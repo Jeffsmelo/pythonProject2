@@ -1,0 +1,28 @@
+#Questão 1
+#Faça uma função que faça o cálculo do salário e retorne o valor a ser pago conforme o número de horas trabalhadas.
+
+qnt_ganha = float(input('Quanto ganha por hora? '))
+horas_trabalhadas = float(input('Horas trabalhadas por mês: '))
+
+def mulp (x,y):
+    "esta função ira multiplicar dois valores de x e y e retornar o valor de x * y"
+    return x*y
+
+#Faça uma função para calcular o IMC (Índice de Messa Corporal)
+#I- Você vai precisar informar a altura (metros) e peso (kg)
+#II- O resultado é o calculo de IMC (Peso/Altura)
+#III- Incremente na função
+
+altura = float(input("Digite sua altura em metros: "))
+peso = float(input("Digite seu peso em Kg: "))
+
+imc = peso / altura ** 2
+
+print("Seu IMC é: %.4f" % imc)
+
+def dividir (x,y):
+    "Esta função irá dividir dois valores de x e y e retornar o valor de x / y"
+    return x/y
+
+print("Verifique pelo resultado do IMC da pessoa qual é sua classificação, seguindo a tabela de IMC:")
+
